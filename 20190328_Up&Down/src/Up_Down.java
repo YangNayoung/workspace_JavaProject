@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Up_Down { 
      public static void main(String[] args) { 
      int random = (int)(Math.random()*100) +1; 
-     System.out.println("1~100 사이의 숫자를 골랐으니 숫자를 맞춰 보시오."); 
+     System.out.println("1~100 사이의 숫자를 컴퓨터가 골랐으니 숫자를 맞춰봐."); 
      Scanner scanner = new Scanner(System.in); 
 
           while(true){ 
@@ -21,4 +21,4 @@ public class Up_Down {
                } 
           } 
      }
-}
+} 
