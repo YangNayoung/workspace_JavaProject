@@ -6,4 +6,5 @@ INDEX VERSION 1.131+D:\미림\2학년\JAVA\수업\workspace_JavaProject\.metadata\.plu
 16608506.index
 685578782.index
 2847541801.index
+2012658822.index
 2662964231.index
