@@ -7,9 +7,9 @@ public class Nsum {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("숫자를 입력하세요>> ");
 		String number = sc.nextLine();
+		int length = number.length();
 		int sum=0;
 		// 각 자릿수의 수를 더하자
-		int length = number.length();
 		for(int i=0; i<length; i++) {
 			// 0~자릿수-1까지 반복하자
 			// 한글자씩 가져와서 숫자를 바꾸자
