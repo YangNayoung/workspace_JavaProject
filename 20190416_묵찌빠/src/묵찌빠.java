@@ -1,13 +1,12 @@
-import java.util.Scanner; 
-import java.util.Random;
-public class RockPaperScissors {
+import java.util.Scanner;
+
+public class 묵찌빠 {
 
 	public static void main(String[] args) {
 		String[] pae = {"가위", "바위", "보"};
 		//사용자의 입력을 받는다.(1:가위, 2:바위, 3:보, 0:끝)
 		Scanner sc = new Scanner(System.in);
 		while(true){
-			System.out.println("사용자의 입력을 말하자(1:가위 2:바위 3:보 0:종료) ");
 			int p = sc.nextInt();
 			//컴퓨터의 패를 구하자
 			if(p == 0) {
@@ -54,7 +53,9 @@ public class RockPaperScissors {
 
 	private static int makeComputer() {
 		Random random = new Random();
-		int c  =random.nextInt(3 - 1 + 1) + 1; // 1~3 임의의 수
+		int c=random.nextInt(3-1+1)+1; // 1~3 임의의 수
 		return c;
 	}
+	}
+
 }
