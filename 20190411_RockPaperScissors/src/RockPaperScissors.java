@@ -54,7 +54,7 @@ public class RockPaperScissors {
 
 	private static int makeComputer() {
 		Random random = new Random();
-		int c  =random.nextInt(3 - 1 + 1) + 1; // 1~3 임의의 수
+		int c  = random.nextInt(3 - 1 + 1) + 1; // 1~3 임의의 수
 		return c;
 	}
 }
