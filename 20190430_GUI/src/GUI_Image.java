@@ -20,6 +20,8 @@ public class GUI_Image {
 		// 이미지 아이콘 크기 선정
 		ImageIcon smallV = new ImageIcon(V.getImage().getScaledInstance(500,333,Image.SCALE_DEFAULT));
 		JButton imageButton = new JButton(smallV);
+		imageButton.setRolloverIcon(BTS); // 마우스 올리면
+		imageButton.setPressedIcon(V); // 마우스 클릭화면
 		
 		panel.add(imageLable);
 		panel.add(imageButton);
